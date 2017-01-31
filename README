@@ -1,0 +1,19 @@
+Original author: Andrew Tridgell <tridge@samba.org>
+Source -> https://github.com/tridge/junkcode/blob/master/i.c
+
+Patch from debian repo -> https://packages.debian.org/source/sid/iprint
+Author: Thijs Kinkhorst <thijs@debian.org>
+
+I extract the manpage from the deb package (from debian repo)
+Author: Paul Russell <prussell@alderaan.franken.de>
+
+I just put it together in a new git repository and add a little Makefile.
+
+======== INSTAL ==========
+
+1) Build
+	$ make
+
+2) Install
+	$ make install
+	Note: 'sudo' can be needed
